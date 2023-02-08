@@ -40,7 +40,7 @@ foreach($inputan as $key => $value){
     }elseif($value == "<"){
         // menyimpan total grup
         $GrupMardy = $GrupMardy;
-        // hasil awal
+        // hasil ketika bertemu grup lain
         $AwalHello = $GrupMardy * 2;
     } else {
         // ulang pengecekam
