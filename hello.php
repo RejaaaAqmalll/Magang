@@ -10,7 +10,7 @@
 </head>
 <body>
     <center>
-    <form method="post">
+    <form method="post" autocomplete="off">
         <h3>Pengecekan Jumlah hello</h3>
         <input type="text" placeholder="masukan inputan" name="input">
         <input type="submit" name="submit" value="Cek">
