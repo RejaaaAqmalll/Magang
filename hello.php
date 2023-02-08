@@ -29,7 +29,7 @@ $TotalHello = 0;
 
 foreach($inputan as $key => $value){
     // looping awal bernilai 0
-    $awal = 0;
+    $AwalHello = 0;
 
     // pengecekan
     if($value == ">"){
@@ -38,12 +38,12 @@ foreach($inputan as $key => $value){
         // menyimpan total grup
         $GrupMardy = $GrupMardy;
         // hasil 
-        $awal = $GrupMardy * 2;
+        $AwalHello = $GrupMardy * 2;
     } else {
         continue;
     }
     //  jumlah hello seluruhnya
-    $TotalHello += $awal;
+    $TotalHello += $AwalHello;
 
     }
     echo "<p align = 'center'>Total Hello Yang Diucapkan adalah $TotalHello x</p>";
