@@ -1,29 +1,20 @@
 <?php
 
 $numbers = [1,4,1,2,4,2,7,9,4,5];
-// array();
-
-// for ($i=0; $i <count($numbers) ; $i++) { 
-//     print "#";
-
-// }
-// echo "<hr>";
-// $i=0;
-// foreach($numbers as $val) {
-//     echo "#";
-//     $i++;
-
-// }
-// echo "<br>";
 
 echo "<h3>perulangan for</h3>";
 
+// loop untuk cek value array  dan menentukan indeks
 for ($i=0; $i <count($numbers); $i++) { 
-    $jumlah = $numbers[$i];
 
+    // menyimpan hasil looping dan indeks
+    $jumlah = $numbers[$i];
+    //  loop untuk menghasilkan karakter sesuai indeks dan value dalam array
     for ($x=0; $x <$jumlah; $x++) { 
+        // output
         echo "#";
     }
+    // jarak setiap hasil loop sesuai value
     echo '<br>';
 }
 
